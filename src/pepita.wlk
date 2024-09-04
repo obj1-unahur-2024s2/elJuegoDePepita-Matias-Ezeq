@@ -7,7 +7,7 @@ object pepita {
 	var position = game.origin()
 
 	method image() {
-		return if (self.estaEnElNido()) "pepita-grande.png" else "pepita.png"
+		return "pepita" + if (self.estaEnElNido()) "-grande.png" else ".png"
 	}
 
 	method come(comida) {
@@ -38,7 +38,7 @@ object pepita {
 
 	method estaEnElNido() {
 		
-		return false // Reemplazar por el código correcto
+		return true
 	}
 
 }
