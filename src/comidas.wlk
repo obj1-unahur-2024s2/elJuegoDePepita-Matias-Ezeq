@@ -2,13 +2,12 @@ import wollok.game.*
 
 object manzana {
 
-	//Completar
+	var property energiaQueOtorga = 40
 
 }
 
 object alpiste {
-
-	// Completar
+	var property energiaQueOtorga = 20
 
 }
 
