@@ -6,6 +6,8 @@ object pepita {
 	var property energia = 100
 	var property position = game.origin()
 
+	method position() = game.center()
+
 	method image() {
 		return if (self.estaEnElNido()) "pepita-grande.png" else "pepita.png"
 	}
