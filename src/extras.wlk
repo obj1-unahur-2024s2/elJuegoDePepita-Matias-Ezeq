@@ -8,8 +8,9 @@ object nido {
 
 object silvestre {
 
-	var property position = game.at(1,0)
+	method position() = game.at(pepita.position().x().max(3),0)
 	var property image = ("silvestre.png")
-
+	
+	
 }
 
